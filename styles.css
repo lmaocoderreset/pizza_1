@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(132, 177, 80);
+}
+header {
+    background-color:rgb(226, 178, 75) ;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;  
+    margin: 20px;
+}
+.pissa {
+    background: rgb(252, 255, 67);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+}
+.pissa-image {
+    width: 100%;
+    border-radius:  10px; 
+}
+button {
+    background-color: greenyellow;
+    color: beige;
+    border: none;
+    padding: 20x 0;
+    border-radius:  5px; 
+cursor: pointer;
+font-size: 16px;
+}
+button:fover {
+    background-color: darkorange;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: moccasin;
+    color: rgb(255, 241, 240);
+}
